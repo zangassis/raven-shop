@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ShopWebAPI.Aplication.Models;
+using ShopWebAPI.Application.Models;
 using ShopWebAPI.Domain.Entities;
 using ShopWebAPI.Infra.Repositories;
 using System.Collections.Generic;
 
-namespace ShopWebAPI.Aplication.Controllers
+namespace ShopWebAPI.Application.Controllers
 {
     [ApiController]
     [Route("[controller]")]

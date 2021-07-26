@@ -5,13 +5,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using ShopWebAPI.Aplication.Models;
+using ShopWebAPI.Application.Models;
 using ShopWebAPI.Domain.Entities;
 using ShopWebAPI.Infra.Context;
 using ShopWebAPI.Infra.Persistence;
 using ShopWebAPI.Infra.Repositories;
 
-namespace ShopWebAPI.Aplication
+namespace ShopWebAPI.Application
 {
     public class Startup
     {
